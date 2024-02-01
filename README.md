@@ -123,4 +123,4 @@ kubectl get svc
 
 ### 13. Access the Application
 
-Fetch the LoadBalancer URL from the output of the previous command and access the application on any browser.
+Fetch the LoadBalancer URL from the output of the previous command and access the application on any browser with the container port.
