@@ -107,7 +107,7 @@ service:
     port: <container-port>"
 ```
 
-   - Tip: Increase the replica count in the "values.yml" file for high availability.
+ - Tip: Increase the replica count in the "values.yml" file for high availability.
 
 ### 12. Helm Deployment
 
