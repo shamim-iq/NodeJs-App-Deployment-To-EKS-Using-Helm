@@ -34,7 +34,7 @@ sudo usermod -aG docker $USER
 ### 4. IAM User and Access Key
 
 - Create an IAM user with required policies for Terraform and EKS.
-- Generate Access Key and Secret Access Key.
+- Generate `Access Key` and `Secret Access Key`.
 
 ### 5. AWS CLI Configuration
 
@@ -42,7 +42,7 @@ sudo usermod -aG docker $USER
 aws configure
 ```
 
-Enter the Access Key, Secret Access Key, and preferred region.
+Enter the `Access Key`, `Secret Access Key`, and preferred `Region`.
 
 ### 6. Sample Node.js Code
 
@@ -72,9 +72,9 @@ docker push <repository-name/image-name>
 
 ### 9. Terraform Setup
 
-- Configure provider.tf and EKS.tf.
-- Run terraform init to download required modules.
-- Run terraform plan and terraform apply -auto-approve to deploy resources.
+- Configure `provider.tf` and `EKS.tf`.
+- Run `terraform init` to download required modules.
+- Run `terraform plan` and `terraform apply -auto-approve` to deploy resources.
 
 ### 10. Update Kubeconfig
 
@@ -91,7 +91,7 @@ cd <chart-name>
 sudo nano values.yml
 ```
 
-### 12. Configure image, service, and other settings in "values.yml" file.
+### 12. Configure image, service, and other settings in `values.yml` file.
 
 ```yml
 image:
@@ -107,7 +107,7 @@ service:
     port: <container-port>"
 ```
 
- - Tip: Increase the replica count in the "values.yml" file for high availability.
+ - Tip: Increase the replica count in the `values.yml` file for high availability.
 
 ### 12. Helm Deployment
 
